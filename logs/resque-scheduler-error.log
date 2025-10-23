@@ -1,0 +1,630 @@
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Error: read error on connection to redis:6379
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Warning Error: Redis::zRangeByScore(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php, line 248]
+
+Error: Connection lost
+#0 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/ResqueScheduler.php(248): Redis->zRangeByScore()
+#1 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(61): ResqueScheduler\ResqueScheduler::nextDelayedTimestamp()
+#2 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/lib/ResqueScheduler/Worker.php(44): ResqueScheduler\Worker->handleDelayedItems()
+#3 /var/www/MISP/app/Vendor/kamisama/php-resque-ex-scheduler/bin/resque-scheduler.php(68): ResqueScheduler\Worker->work()
+#4 {main}

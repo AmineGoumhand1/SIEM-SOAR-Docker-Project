@@ -1,0 +1,115 @@
+# 09-misp.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: misp-config
+  namespace: soc-platform
+data:
+  database.php: |
+    <?php
+    class DATABASE_CONFIG {
+        public $default = array(
+            'datasource' => 'Database/Mysql',
+            'persistent' => false,
+            'host' => 'mysql',
+            'login' => 'mispuser',
+            'port' => 3306,
+            'password' => 'misppass',
+            'database' => 'mispdb',
+            'prefix' => '',
+            'encoding' => 'utf8',
+        );
+    };
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: misp
+  namespace: soc-platform
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: misp
+  template:
+    metadata:
+      labels:
+        app: misp
+    spec:
+      containers:
+      - name: misp
+        image: coolacid/misp-docker:core-v2.4.177a
+        ports:
+        - containerPort: 80
+        - containerPort: 443
+        env:
+        - name: MYSQL_HOST
+          value: "mysql"
+        - name: MYSQL_DATABASE
+          value: "mispdb"
+        - name: MYSQL_USER
+          value: "mispuser"
+        - name: MYSQL_PASSWORD
+          value: "misppass"
+        - name: MISP_ADMIN_EMAIL
+          value: "admin@admin.test"
+        - name: MISP_ADMIN_PASSPHRASE
+          value: "admin"
+        - name: MISP_BASEURL
+          value: "http://misp.local"
+        - name: TIMEZONE
+          value: "Europe/London"
+        - name: BASEURL
+          value: "http://misp.local"
+        - name: INIT
+          value: "true"
+        - name: CRON_USER_ID
+          value: "1"
+        - name: REDIS_FQDN
+          value: "redis"
+        resources:
+          requests:
+            memory: "2Gi"
+            cpu: "500m"
+          limits:
+            memory: "4Gi"
+            cpu: "2000m"
+        volumeMounts:
+        - name: misp-config
+          mountPath: /var/www/MISP/app/Config/database.php
+          subPath: database.php
+        livenessProbe:
+          httpGet:
+            path: /users/login
+            port: 80
+          initialDelaySeconds: 120
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /users/login
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 10
+      volumes:
+      - name: misp-config
+        configMap:
+          name: misp-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: misp
+  namespace: soc-platform
+spec:
+  type: NodePort
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+    nodePort: 30080
+  - name: https
+    port: 443
+    targetPort: 443
+    nodePort: 30443
+  selector:
+    app: misp

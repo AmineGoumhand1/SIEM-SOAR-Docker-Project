@@ -1,0 +1,40 @@
+# config.yaml for ElastAlert
+
+# Elasticsearch host and port
+es_host: elasticsearch
+es_port: 9200
+
+# If your Elasticsearch is using HTTPS & authentication
+use_ssl: false
+verify_certs: false
+es_username: elastic
+es_password: changeme  # replace with ${ELASTIC_PASSWORD} from .env
+
+# Elasticsearch index for ElastAlert metadata
+writeback_index: elastalert_status
+
+# Timezone for alert times
+timezone: UTC
+
+# Buffer time to look back for logs
+buffer_time:
+  minutes: 15
+
+# Run every X minutes
+run_every:
+  minutes: 1
+
+# Folder containing your individual alert rule files
+rules_folder: /opt/elastalert/rules
+
+# Alert methods (TheHive webhook)
+alert_time_limit:
+  days: 2
+
+
+# TheHive integration
+thehive:
+  url: "http://10.0.2.2:9000"
+  api_key: "c352Dd3MjMCnlWyHu9jKa2RCwLZ85e/g"
+  case_template: "default"
+  case_type: "external"

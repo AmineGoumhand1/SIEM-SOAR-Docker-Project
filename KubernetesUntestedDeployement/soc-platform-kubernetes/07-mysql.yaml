@@ -1,0 +1,95 @@
+# 07-mysql.yaml
+# apiVersion: apps/v1
+# kind: StatefulSet
+# metadata:
+#   name: misp-mysql
+#   namespace: soc-platform
+# spec:
+#   serviceName: misp-mysql
+#   replicas: 1
+#   selector:
+#     matchLabels:
+#       app: misp-mysql
+#   template:
+#     metadata:
+#       labels:
+#         app: misp-mysql
+#     spec:
+#       containers:
+#       - name: mysql
+#         image: mysql:5.7
+#         env:
+#         - name: MYSQL_ROOT_PASSWORD
+#           valueFrom:
+#             secretKeyRef:
+#               name: mysql-secret
+#               key: MYSQL_ROOT_PASSWORD
+#         - name: MYSQL_DATABASE
+#           valueFrom:
+#             secretKeyRef:
+#               name: mysql-secret
+#               key: MYSQL_DATABASE
+#         - name: MYSQL_USER
+#           valueFrom:
+#             secretKeyRef:
+#               name: mysql-secret
+#               key: MYSQL_USER
+#         - name: MYSQL_PASSWORD
+#           valueFrom:
+#             secretKeyRef:
+#               name: mysql-secret
+#               key: MYSQL_PASSWORD
+#         ports:
+#         - containerPort: 3306
+#         resources:
+#           requests:
+#             memory: "1Gi"
+#             cpu: "500m"
+#           limits:
+#             memory: "2Gi"
+#             cpu: "1000m"
+#         volumeMounts:
+#         - name: mysql-data
+#           mountPath: /var/lib/mysql
+#         livenessProbe:
+#           exec:
+#             command:
+#             - mysqladmin
+#             - ping
+#             - -h
+#             - localhost
+#           initialDelaySeconds: 30
+#           periodSeconds: 10
+#         readinessProbe:
+#           exec:
+#             command:
+#             - mysql
+#             - -u
+#             - root
+#             - -pmispass
+#             - -e
+#             - "SELECT 1"
+#           initialDelaySeconds: 5
+#           periodSeconds: 5
+#   volumeClaimTemplates:
+#   - metadata:
+#       name: mysql-data
+#     spec:
+#       accessModes: [ "ReadWriteOnce" ]
+#       storageClassName: soc-storage
+#       resources:
+#         requests:
+#           storage: 10Gi
+# ---
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: misp-mysql
+#   namespace: soc-platform
+# spec:
+#   ports:
+#   - port: 3306
+#     targetPort: 3306
+#   selector:
+#     app: misp-mysql
+#   clusterIP: None

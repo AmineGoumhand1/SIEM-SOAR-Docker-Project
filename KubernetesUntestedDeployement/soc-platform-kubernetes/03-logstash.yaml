@@ -1,0 +1,44 @@
+# 03-logstash.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: logstash
+  namespace: soc-platform
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: logstash
+  template:
+    metadata:
+      labels:
+        app: logstash
+    spec:
+      containers:
+      - name: logstash
+        image: docker.elastic.co/logstash/logstash:7.17.9
+        ports:
+        - containerPort: 5044
+        env:
+        - name: LS_JAVA_OPTS
+          value: "-Xmx256m -Xms256m"
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+        volumeMounts:
+        - name: pipeline-config
+          mountPath: /usr/share/logstash/pipeline/main.conf
+          subPath: main.conf
+        livenessProbe:
+          exec:
+            command: ["curl", "-f", "http://localhost:9600/"]
+          initialDelaySeconds: 30
+          periodSeconds: 10
+      volumes:
+      - name: pipeline-config
+        configMap:
+          name: logstash-pipeline-cm

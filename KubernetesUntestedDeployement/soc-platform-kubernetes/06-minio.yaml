@@ -1,0 +1,86 @@
+# 06-minio.yaml
+# apiVersion: apps/v1
+# kind: StatefulSet
+# metadata:
+#   name: minio
+#   namespace: soc-platform
+# spec:
+#   serviceName: minio
+#   replicas: 1
+#   selector:
+#     matchLabels:
+#       app: minio
+#   template:
+#     metadata:
+#       labels:
+#         app: minio
+#     spec:
+#       containers:
+#       - name: minio
+#         image: quay.io/minio/minio
+#         args:
+#         - server
+#         - /data
+#         - --console-address
+#         - ":9002"
+#         env:
+#         - name: MINIO_ROOT_USER
+#           valueFrom:
+#             secretKeyRef:
+#               name: minio-secret
+#               key: MINIO_ROOT_USER
+#         - name: MINIO_ROOT_PASSWORD
+#           valueFrom:
+#             secretKeyRef:
+#               name: minio-secret
+#               key: MINIO_ROOT_PASSWORD
+#         ports:
+#         - containerPort: 9000
+#         - containerPort: 9002
+#         resources:
+#           requests:
+#             memory: "512Mi"
+#             cpu: "250m"
+#           limits:
+#             memory: "1Gi"
+#             cpu: "500m"
+#         volumeMounts:
+#         - name: minio-data
+#           mountPath: /data
+#         livenessProbe:
+#           httpGet:
+#             path: /minio/health/live
+#             port: 9000
+#           initialDelaySeconds: 30
+#           periodSeconds: 30
+#         readinessProbe:
+#           httpGet:
+#             path: /minio/health/ready
+#             port: 9000
+#           initialDelaySeconds: 5
+#           periodSeconds: 10
+#   volumeClaimTemplates:
+#   - metadata:
+#       name: minio-data
+#     spec:
+#       accessModes: [ "ReadWriteOnce" ]
+#       storageClassName: soc-storage
+#       resources:
+#         requests:
+#           storage: 10Gi
+# ---
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: minio
+#   namespace: soc-platform
+# spec:
+#   ports:
+#   - name: api
+#     port: 9000
+#     targetPort: 9000
+#   - name: console
+#     port: 9002
+#     targetPort: 9002
+#   selector:
+#     app: minio

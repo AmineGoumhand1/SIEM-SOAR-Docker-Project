@@ -1,0 +1,159 @@
+# 14-network-policies.yaml
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny-all
+  namespace: soc-platform
+spec:
+  podSelector: {}
+  policyTypes:
+  - Ingress
+  - Egress
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-dns
+  namespace: soc-platform
+spec:
+  podSelector: {}
+  policyTypes:
+  - Egress
+  egress:
+  - to:
+    - namespaceSelector: {}
+      podSelector:
+        matchLabels:
+          k8s-app: kube-dns
+    ports:
+    - protocol: UDP
+      port: 53
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-ingress
+  namespace: soc-platform
+spec:
+  podSelector: {}
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          nginx-ingress-pod: "true"
+---
+# Allow traffic from Logstash to Elasticsearch
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: logstash-to-elasticsearch
+  namespace: soc-platform
+spec:
+  podSelector:
+    matchLabels:
+      app: elasticsearch
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: logstash
+    ports:
+    - port: 9200
+---
+# Allow traffic from Kibana to Elasticsearch
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: kibana-to-elasticsearch
+  namespace: soc-platform
+spec:
+  podSelector:
+    matchLabels:
+      app: elasticsearch
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: kibana
+    ports:
+    - port: 9200
+---
+# Allow traffic from TheHive to Elasticsearch, Cassandra, MinIO, and Cortex
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: thehive-egress
+  namespace: soc-platform
+spec:
+  podSelector:
+    matchLabels:
+      app: thehive
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          app: elasticsearch
+    ports:
+    - port: 9200
+  - to:
+    - podSelector:
+        matchLabels:
+          app: cassandra
+    ports:
+    - port: 9042
+  - to:
+    - podSelector:
+        matchLabels:
+          app: minio
+    ports:
+    - port: 9000
+  - to:
+    - podSelector:
+        matchLabels:
+          app: cortex
+    ports:
+    - port: 9001
+---
+# Allow traffic from Cortex to Elasticsearch
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: cortex-to-elasticsearch
+  namespace: soc-platform
+spec:
+  podSelector:
+    matchLabels:
+      app: elasticsearch
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          app: cortex
+    ports:
+    - port: 9200
+---
+# Allow traffic from MISP to MySQL and Redis
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: misp-egress
+  namespace: soc-platform
+spec:
+  podSelector:
+    matchLabels:
+      app: misp
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          app: misp-mysql
+    ports:
+    - port: 3306
+  - to:
+    - podSelector:
+        matchLabels:
+          app: redis
+    ports:
+    - port: 6379

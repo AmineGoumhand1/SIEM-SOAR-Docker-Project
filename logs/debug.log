@@ -1,0 +1,12 @@
+2025-10-21 21:43:44 Notice: Notice (8): Undefined index: last_pw_change in [/var/www/MISP/app/View/Users/view.ctp, line 162]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/view.ctp, line 162
+View::_evaluate() - APP/Lib/cakephp/lib/Cake/View/View.php, line 971
+View::_render() - APP/Lib/cakephp/lib/Cake/View/View.php, line 933
+View::render() - APP/Lib/cakephp/lib/Cake/View/View.php, line 473
+Controller::render() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+

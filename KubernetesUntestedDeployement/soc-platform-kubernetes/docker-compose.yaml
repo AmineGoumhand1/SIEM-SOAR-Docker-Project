@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  cassandra:
+    image: cassandra:4
+    container_name: cassandra
+    ports:
+      - "9042:9042"
+      - "7000:7000"
+      - "7001:7001"
+    environment:
+      - CASSANDRA_CLUSTER_NAME=hive
+      - CASSANDRA_START_RPC=true
+      - MAX_HEAP_SIZE=512M
+      - HEAP_NEWSIZE=100M
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+
+  minio:
+    image: quay.io/minio/minio
+    container_name: minio
+    ports:
+      - "9000:9000"
+      - "9002:9002"
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin
+    command: server /data --console-address ":9002"
+    volumes:
+      - minio_data:/data
+
+  mysql:
+    image: mysql/mysql-server:5.7
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=misppass
+      - MYSQL_DATABASE=mispdb
+      - MYSQL_USER=mispuser
+      - MYSQL_PASSWORD=misppass
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  redis:
+    image: redis:7.2.11-alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  cassandra_data:
+  minio_data:
+  mysql_data:
+  redis_data:

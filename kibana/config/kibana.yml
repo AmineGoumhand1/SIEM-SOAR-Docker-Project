@@ -1,0 +1,23 @@
+# ======================== Kibana Core Settings ========================
+server.name: kibana
+server.host: "0.0.0.0"
+server.port: 5601
+
+# Elasticsearch connection
+elasticsearch.hosts: ["http://elasticsearch:9200"]
+elasticsearch.username: "elastic"
+elasticsearch.password: "changeme"
+
+# ======================== ElastAlert Plugin Settings ========================
+# Server URL for the ElastAlert REST API
+#elastalertKibanaPlugin.serverHost: "elastalert"    # Docker service name of ElastAlert
+#elastalertKibanaPlugin.serverPort: 3030           # ElastAlert REST API port
+#elastalertKibanaPlugin.serverSsl: false           # true if using HTTPS for ElastAlert
+#elastalertKibanaPlugin.serverPath: ""             # leave empty unless ElastAlert API uses a base path
+#elastalertKibanaPlugin.serverCustomRequestHeaders:
+ # X-Custom-header1: "value"
+  #X-Custom-header2: "value"
+
+# ======================== Optional Kibana Settings ========================
+# Logging
+

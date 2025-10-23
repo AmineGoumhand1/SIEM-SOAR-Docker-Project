@@ -1,0 +1,40 @@
+# 13-ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: soc-ingress
+  namespace: soc-platform
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /kibana
+        pathType: Prefix
+        backend:
+          service:
+            name: kibana
+            port:
+              number: 5601
+      - path: /thehive
+        pathType: Prefix
+        backend:
+          service:
+            name: thehive
+            port:
+              number: 9000
+      - path: /cortex
+        pathType: Prefix
+        backend:
+          service:
+            name: cortex
+            port:
+              number: 9001
+      - path: /misp
+        pathType: Prefix
+        backend:
+          service:
+            name: misp
+            port:
+              number: 80

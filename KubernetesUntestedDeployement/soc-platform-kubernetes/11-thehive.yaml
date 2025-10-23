@@ -1,0 +1,148 @@
+# 11-thehive.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: thehive-config
+  namespace: soc-platform
+data:
+  application.conf: |
+    # TheHive configuration
+    storage {
+      provider: s3
+      s3 {
+        bucket = "thehive"
+        endpoint = "http://minio:9000"
+        accessKey = "minioadmin"
+        secretKey = "minioadmin"
+        region = "us-east-1"
+      }
+    }
+    
+    db {
+      janusgraph {
+        storage {
+          backend: cql
+          hostname: ["cassandra"]
+          cql {
+            cluster-name: "TheHive"
+            keyspace: "thehive"
+          }
+        }
+        index.search {
+          backend: elasticsearch
+          hostname: ["elasticsearch"]
+          index-name: "thehive"
+        }
+      }
+    }
+    
+    cortex {
+      servers = [
+        {
+          name = "cortex.local"
+          url = "http://cortex:9001"
+          # key = "7BP6xZi33wlqxogECK6xgElzcQnMR7Wa"
+        }
+      ]
+    }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: thehive
+  namespace: soc-platform
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: thehive
+  template:
+    metadata:
+      labels:
+        app: thehive
+    spec:
+      containers:
+      - name: thehive
+        image: strangebee/thehive:5.2
+        ports:
+        - containerPort: 9000
+        command:
+        - /opt/thehive/bin/thehive
+        - --secret
+        - $(SECRET)
+        - --cql-hostnames
+        - "cassandra"
+        - --index-backend
+        - "elasticsearch"
+        - --es-hostnames
+        - "elasticsearch"
+        - --s3-endpoint
+        - "http://minio:9000"
+        - --s3-access-key
+        - $(MINIO_ROOT_USER)
+        - --s3-secret-key
+        - $(MINIO_ROOT_PASSWORD)
+        - --s3-bucket
+        - "thehive"
+        - --s3-use-path-access-style
+        - --cortex-port
+        - "9001"
+        env:
+        - name: JVM_OPTS
+          value: "-Xms1024M -Xmx1024M"
+        - name: SECRET
+          valueFrom:
+            secretKeyRef:
+              name: thehive-secret
+              key: secret
+        - name: MINIO_ROOT_USER
+          valueFrom:
+            secretKeyRef:
+              name: minio-secret
+              key: MINIO_ROOT_USER
+        - name: MINIO_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: minio-secret
+              key: MINIO_ROOT_PASSWORD
+        resources:
+          requests:
+            memory: "1.5Gi"
+            cpu: "500m"
+          limits:
+            memory: "2Gi"
+            cpu: "1000m"
+        volumeMounts:
+        - name: thehive-config
+          mountPath: /etc/thehive/application.conf
+          subPath: application.conf
+        livenessProbe:
+          httpGet:
+            path: /api/status
+            port: 9000
+          initialDelaySeconds: 120
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /api/status
+            port: 9000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+      volumes:
+      - name: thehive-config
+        configMap:
+          name: thehive-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: thehive
+  namespace: soc-platform
+spec:
+  type: NodePort
+  ports:
+  - port: 9000
+    targetPort: 9000
+    nodePort: 30090
+  selector:
+    app: thehive

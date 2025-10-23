@@ -1,0 +1,24 @@
+# configs/logstash-cm.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: logstash-pipeline-cm
+  namespace: soc-platform
+data:
+  main.conf: |
+    input {
+        beats {
+            port => 5044
+        }
+    }
+    
+    filter {
+    
+    }
+    
+    output {
+        elasticsearch {
+            hosts => "http://elasticsearch:9200"
+            index => "logstash-%{+YYYY.MM.dd}"
+        }
+    }
