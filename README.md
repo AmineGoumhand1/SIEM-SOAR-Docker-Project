@@ -1,4 +1,4 @@
-# ELK + SOC Stack Deployment and Operational Guide
+# SIEM/SOAR Dockerized-Based Implementation, Deployment and Operational Guide
 
 This document describes the architecture, services, default credentials (development), configuration locations, automated scripts, operational commands, and troubleshooting notes for the SOC stack in this repository.
 
