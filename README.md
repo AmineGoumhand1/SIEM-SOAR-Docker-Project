@@ -2,7 +2,6 @@
 
 This document describes the architecture, services, default credentials (development), configuration locations, automated scripts, operational commands, and troubleshooting notes for the SOC stack in this repository.
 
----
 
 ## Table of contents
 
@@ -31,26 +30,30 @@ This document describes the architecture, services, default credentials (develop
 - [Maintenance and housekeeping](#maintenance-and-housekeeping)
 - [Appendix: useful commands and examples](#appendix-useful-commands-and-examples)
 
----
 
-## Architecture overview
 
-- Deployment model: Docker Compose on a single host or VM.
-- Purpose: SOC/lab environment combining TheHive, Cortex as SIRP , MISP (threat sharing) as TIP, and Elasticsearch (index/search) as SIEM. also integrating Shuffle SOAR to complete our SIEM  Supporting services include Cassandra, MySQL, Redis, MinIO, and MISP modules.
-- Data flow (conceptual):
-  1. TheHive receives cases and observables from diff sources like Elastalert.
-  2. Observables are forwarded to Cortex for automated analysis.
-  3. Cortex stores results in Elasticsearch.
-  4. MISP provides IoCs to TheHive (optional sync).
-  5. MinIO used for object storage when needed.
-  6. Automation and Orchastration between these tools using Shuffle.
-  7. In this project, i used Portainer to supervise all container with easy manageable interface.
+## Architecture Overview
+
+* This project provides a complete **Docker-based setup** for building a functional **SIEM and SOAR environment**. It brings together several essential tools: **TheHive 5.2** for case management, **Cortex 3.1.3** for automated analysis, **MISP** for threat intelligence sharing, and the **ELK Stack (Elasticsearch, Logstash, Kibana)** for log collection and visualization. The setup also includes **ElastAlert 2** for alerting, **MinIO** for object storage, **Node-RED** for workflow automation, and **Portainer** for container supervision.
+* All components are deployed using **Docker and Docker Compose**, providing an isolated, reproducible, and maintainable environment. The goal is to simulate the key functions of a **modern Security Operations Center (SOC)** — including log aggregation, event correlation, case management, threat intelligence, and automated response.
+* At this stage, the deployment runs entirely on Docker. **Kubernetes orchestration** and **Terraform-based AWS provisioning** are planned for future releases but are **not yet implemented**.
+* **Deployment model:** Docker Compose on a single host or virtual machine.
+* **Purpose:** Create a SOC/lab environment that integrates **TheHive** and **Cortex** as a **SIRP (Security Incident Response Platform)**, **MISP** as a **Threat Intelligence Platform (TIP)**, and **Elasticsearch** as a **SIEM** component. The stack also integrates **Shuffle SOAR** to complete the automation and orchestration layer. Supporting services include **Cassandra**, **MySQL**, **Redis**, **MinIO**, and the various **MISP modules**.
+* **Data flow (conceptual):**
+
+  1. **TheHive** receives cases and observables from different sources such as **ElastAlert**.
+  2. Observables are sent to **Cortex** for automated analysis.
+  3. **Cortex** stores analysis results in **Elasticsearch**.
+  4. **MISP** provides IoCs to **TheHive** through optional synchronization.
+  5. **MinIO** is used for object storage when required.
+  6. **Shuffle** handles automation and orchestration between all tools.
+  7. **Portainer** is used to monitor and manage all running containers through an easy-to-use web interface.
+
 
 ### SIEM/SOAR Architecture
 
 ![alt text](./images/image-1.png)
 
----
 
 ## Network plan and static IPs
 
@@ -71,9 +74,8 @@ This document describes the architecture, services, default credentials (develop
   - Portainer: `10.0.2.14`
   - Node-RED: `10.0.2.15`
 
-Reasoning: fixed IPs simplify inter-container host entries and avoid dynamic discovery complexity for lab setups.
+fixed IPs here simplify inter-container host entries and avoid dynamic discovery complexity for lab setups.
 
----
 
 ## Services and purpose (summary table)
 
@@ -94,8 +96,7 @@ Reasoning: fixed IPs simplify inter-container host entries and avoid dynamic dis
 | Portainer      | Docker container management UI           | 9443            | 10.0.2.14           |
 | Node-RED       | Workflow automation                      | 1880            | 10.0.2.15           |
 
----
-
+As an example, 
 ## Management & Orchestration Tools
 
 This stack has been pre-configured with tools to help you manage and orchestrate the containers and their workflows.
@@ -158,7 +159,6 @@ This flow allows you to create a new alert in TheHive simply by sending an HTTP 
      ```
    - You should now see a new alert titled "New Alert from Node-RED" in TheHive.
 
----
 
 ## Default credentials (DEVELOPMENT ONLY)
 
@@ -176,8 +176,6 @@ This flow allows you to create a new alert in TheHive simply by sending an HTTP 
 | MISP DB       | name: `mispdb`, user: `mispuser` | password: `misppass`, root: `mispass` |
 
 
-
----
 
 ## Per-service detailed notes
 
@@ -231,7 +229,6 @@ elasticsearch:
 - OOM or node crash: increase JVM heap (ES_JAVA_OPTS) and ensure host has enough RAM.
 - Connection refused: check firewall and bind address.
 
----
 
 ### Cortex
 
@@ -274,7 +271,6 @@ cortex.local:
 - Analyzer job fails to start: confirm runner configuration and that the underlying Docker host has required resources.
 - Analyzer cannot reach MISP/TheHive: confirm `extraHosts` or DNS entries and `MySIEM-Network` settings.
 
----
 
 <!-- ...existing code... -->
 
@@ -461,7 +457,7 @@ storage {
 - Install MinIO client `mc` on host and create bucket used by TheHive:
 ```bash
 # create alias to MinIO (host port mapping may be 9002:9000)
-mc alias set local http://127.0.0.1:9002 minio minio123
+mc alias set local http://127.0.0.1:9002 minioadmin minioadmin
 mc mb local/thehive-artifacts # You can modify based in the name of your bucket
 mc policy set public local/thehive-artifacts  # optional; prefer private for real deployments
 ```
@@ -495,7 +491,6 @@ mc policy set public local/thehive-artifacts  # optional; prefer private for rea
 - Do not expose MinIO admin console or S3 API to untrusted networks without TLS and access control.
 - Use least-privilege credentials for TheHive (create a MinIO user with access limited to the required bucket).
 
----
 
 ### ElastAlert
 
@@ -573,7 +568,6 @@ This directory should contain your individual alert rule files (in YAML format).
 - **Container is in a restart loop:** This is most likely because the main `config.yaml` is not inside the `elastalert/config/` directory. Move the file and restart the container with `docker-compose restart elastalert`.
 - **Rule not triggering:** Check the ElastAlert logs for errors. Use the `elastalert-test-rule` command inside the container to test your rule against historical data. Ensure the `index` pattern in your rule is correct.
 
----
 
 ### MISP
 
@@ -619,7 +613,6 @@ misp.local:
 - DB errors: check `misp_mysql` logs for initialization issues.
 - Module failures: confirm `misp-modules` can reach Redis and the DB.
 
----
 
 ### Cassandra
 
@@ -646,7 +639,6 @@ cassandra:
 - Logs: `docker-compose logs -f cassandra`
 - Nodetool (inside container): `nodetool status`
 
----
 
 ### MySQL (MISP DB)
 
@@ -676,7 +668,6 @@ misp_mysql:
 - Enter container: `docker exec -it misp_mysql bash`
 - Dump DB: `mysqldump -u root -p mispdb > /data/mispdb.sql`
 
----
 
 ### Redis
 
@@ -695,7 +686,6 @@ redis:
 **Critical notes**
 - Monitor memory usage; if jobs queue up, investigate module behavior.
 
----
 
 ### MinIO
 
@@ -724,7 +714,6 @@ minio:
 - Change MinIO keys before production.
 - Use TLS for web access and S3 endpoints in production.
 
----
 
 ### MISP Modules
 
@@ -748,7 +737,6 @@ misp-modules:
 **Critical notes**
 - Modules may require external credentials. Check module config files for options.
 
----
 
 ## Configuration file locations (repo)
 
@@ -760,7 +748,6 @@ misp-modules:
 
 Change these values before production deployment. Keep secrets out of Git in production.
 
----
 
 ## Docker Compose: layout, volumes, startup
 
@@ -793,7 +780,6 @@ Notes:
 - Services depend on each other (Cortex depends on Elasticsearch, TheHive depends on Cassandra + Elasticsearch, MISP depends on MySQL + Redis).
 - Start order is often handled by `depends_on`, but wait for DBs to be ready before starting application services.
 
----
 
 ## Automated scripts: usage and details
 
@@ -822,7 +808,6 @@ Notes:
 
 Security note: these scripts may include example keys; do not use them in production.
 
----
 
 ## Start / Stop / Logs / Health checks
 
@@ -855,7 +840,6 @@ curl -s http://localhost:9001/api/health
 open http://localhost:9000 in browser and login
 ```
 
----
 
 ## Troubleshooting by service (common errors and fixes)
 
@@ -887,7 +871,6 @@ open http://localhost:9000 in browser and login
 
 General note: increase logging levels in configs if errors are unclear.
 
----
 
 ## Backups and recovery
 
@@ -905,7 +888,6 @@ mysqldump -u root -p mispdb > /data/mispdb.sql
 
 Restore steps depend on service. Always validate backups on a staging system.
 
----
 
 ## Security hardening checklist (development -> production)
 
@@ -916,7 +898,6 @@ Restore steps depend on service. Always validate backups on a staging system.
 - Store secrets in a secret manager (Vault, AWS Secrets Manager, etc.).
 - Restrict Docker socket access for analyzer execution or use a dedicated runner with limited privileges.
 
----
 
 ## Upgrades and redeploy steps
 
@@ -925,7 +906,6 @@ Restore steps depend on service. Always validate backups on a staging system.
 - For Elasticsearch major upgrades, follow migration docs and reindex if required.
 - After Cortex redeploy, if required by analyzer changes, delete indices: `curl -X DELETE "http://localhost:9200/cortex*"`.
 
----
 
 ## Maintenance and housekeeping
 
@@ -934,7 +914,6 @@ Restore steps depend on service. Always validate backups on a staging system.
 - Reclaim disk space by archiving old data.
 - Monitor container health and restart failing containers as needed.
 
----
 
 ## Appendix: useful commands and examples
 
@@ -965,7 +944,6 @@ curl -u admin@cortex.local:cortex_pass http://localhost:9001/api/analyzers
 curl -s -H "Authorization: <API_KEY>" -H "Accept: application/json" http://misp.local/events/index
 ```
 
----
 
 
 ## Shuffle Workflow Automation

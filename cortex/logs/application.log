@@ -31502,3 +31502,183 @@ org.elastic4play.NotFoundError: worker VirusTotal_GetReport_3_1 not found
 2025-10-23 15:40:01,915 [INFO] from org.thp.cortex.services.AuditActor in application-akka.actor.default-dispatcher-68 - Unregister listener for job iwe6EZoBTjB-dfpFAfsO (Actor[akka://application/temp/audit$a])
 2025-10-23 15:40:04,890 [INFO] from org.thp.cortex.services.AuditActor in application-akka.actor.default-dispatcher-69 - Job iwe6EZoBTjB-dfpFAfsO has be updated (JsDefined("Success"))
 2025-10-23 15:40:04,903 [INFO] from org.thp.cortex.services.JobSrv in application-akka.actor.default-dispatcher-68 - Job iwe6EZoBTjB-dfpFAfsO has finished with status Success
+2025-10-23 16:51:52,551 [ERROR] from org.elastic4play.controllers.Authenticated in application-akka.actor.default-dispatcher-437 - Authentication failure:
+	session: AuthenticationError User session has expired
+	pki: AuthenticationError Certificate authentication is not configured
+	key: AuthenticationError Authentication header not found
+	init: AuthenticationError Use of initial user is forbidden because users exist in database
+2025-10-23 16:51:52,551 [INFO] from org.thp.cortex.services.ErrorHandler in application-akka.actor.default-dispatcher-437 - GET /api/organization/SOC-Final/user returned 401
+org.elastic4play.AuthenticationError: Authentication failure
+	at org.elastic4play.controllers.Authenticated.$anonfun$getContext$4(Authenticated.scala:272)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:56)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:93)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:93)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:48)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2025-10-23 16:51:52,552 [ERROR] from org.elastic4play.controllers.Authenticated in application-akka.actor.default-dispatcher-443 - Authentication failure:
+	session: AuthenticationError User session has expired
+	pki: AuthenticationError Certificate authentication is not configured
+	key: AuthenticationError Authentication header not found
+	init: AuthenticationError Use of initial user is forbidden because users exist in database
+2025-10-23 16:51:52,553 [INFO] from org.thp.cortex.services.ErrorHandler in application-akka.actor.default-dispatcher-443 - GET /api/organization/SOC-Final returned 401
+org.elastic4play.AuthenticationError: Authentication failure
+	at org.elastic4play.controllers.Authenticated.$anonfun$getContext$4(Authenticated.scala:272)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:56)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:93)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:93)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:48)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2025-10-23 16:51:52,556 [ERROR] from org.elastic4play.controllers.Authenticated in application-akka.actor.default-dispatcher-441 - Authentication failure:
+	session: AuthenticationError User session has expired
+	pki: AuthenticationError Certificate authentication is not configured
+	key: AuthenticationError Authentication header not found
+	init: AuthenticationError Use of initial user is forbidden because users exist in database
+2025-10-23 16:51:52,556 [ERROR] from org.elastic4play.controllers.Authenticated in application-akka.actor.default-dispatcher-446 - Authentication failure:
+	session: AuthenticationError User session has expired
+	pki: AuthenticationError Certificate authentication is not configured
+	key: AuthenticationError Authentication header not found
+	init: AuthenticationError Use of initial user is forbidden because users exist in database
+2025-10-23 16:51:52,557 [ERROR] from org.elastic4play.controllers.Authenticated in application-akka.actor.default-dispatcher-442 - Authentication failure:
+	session: AuthenticationError User session has expired
+	pki: AuthenticationError Certificate authentication is not configured
+	key: AuthenticationError Authentication header not found
+	init: AuthenticationError Use of initial user is forbidden because users exist in database
+2025-10-23 16:51:52,557 [INFO] from org.thp.cortex.services.ErrorHandler in application-akka.actor.default-dispatcher-441 - GET /api/analyzerconfig returned 401
+org.elastic4play.AuthenticationError: Authentication failure
+	at org.elastic4play.controllers.Authenticated.$anonfun$getContext$4(Authenticated.scala:272)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:56)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:93)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:93)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:48)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2025-10-23 16:51:52,558 [INFO] from org.thp.cortex.services.ErrorHandler in application-akka.actor.default-dispatcher-446 - GET /api/organization/analyzer?range=all returned 401
+org.elastic4play.AuthenticationError: Authentication failure
+	at org.elastic4play.controllers.Authenticated.$anonfun$getContext$4(Authenticated.scala:272)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:56)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:93)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:93)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:48)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2025-10-23 16:51:52,558 [INFO] from org.thp.cortex.services.ErrorHandler in application-akka.actor.default-dispatcher-442 - GET /api/responderconfig returned 401
+org.elastic4play.AuthenticationError: Authentication failure
+	at org.elastic4play.controllers.Authenticated.$anonfun$getContext$4(Authenticated.scala:272)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:56)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:93)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:93)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:48)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2025-10-23 16:51:52,560 [ERROR] from org.elastic4play.controllers.Authenticated in application-akka.actor.default-dispatcher-446 - Authentication failure:
+	session: AuthenticationError User session has expired
+	pki: AuthenticationError Certificate authentication is not configured
+	key: AuthenticationError Authentication header not found
+	init: AuthenticationError Use of initial user is forbidden because users exist in database
+2025-10-23 16:51:52,560 [INFO] from org.thp.cortex.services.ErrorHandler in application-akka.actor.default-dispatcher-446 - GET /api/organization/responder?range=all returned 401
+org.elastic4play.AuthenticationError: Authentication failure
+	at org.elastic4play.controllers.Authenticated.$anonfun$getContext$4(Authenticated.scala:272)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:56)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:93)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:93)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:48)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2025-10-23 16:54:08,434 [INFO] from org.thp.cortex.services.JobSrv in application-akka.actor.default-dispatcher-449 - Looking for similar job in the last 10 minutes (worker=3541b6a36d047bc0b3f09abb4c707d94, dataType=hash, data=Left(0f77220f6157fe2f506e14c8ddeff5f8), tlp=2, parameters={})
+2025-10-23 16:54:10,165 [INFO] from org.thp.cortex.services.AuditActor in application-akka.actor.default-dispatcher-456 - Job mgf9EZoBTjB-dfpF-fs4 has be updated (JsDefined("InProgress"))
+2025-10-23 16:54:21,975 [INFO] from com.spotify.docker.client.LoggingPullHandler in pool-5-thread-1 - pull ghcr.io/thehive-project/virustotal_getreport:3: ProgressMessage{id=3, status=Pulling from thehive-project/virustotal_getreport, stream=null, error=null, progress=null, progressDetail=null}
+2025-10-23 16:54:21,980 [INFO] from com.spotify.docker.client.LoggingPullHandler in pool-5-thread-1 - pull ghcr.io/thehive-project/virustotal_getreport:3: ProgressMessage{id=null, status=Digest: sha256:ba0f90422dba35eaa4bc01e23793e05f6c9040b574030b046989e10b978adbcb, stream=null, error=null, progress=null, progressDetail=null}
+2025-10-23 16:54:21,980 [INFO] from com.spotify.docker.client.LoggingPullHandler in pool-5-thread-1 - pull ghcr.io/thehive-project/virustotal_getreport:3: ProgressMessage{id=null, status=Status: Image is up to date for ghcr.io/thehive-project/virustotal_getreport:3, stream=null, error=null, progress=null, progressDetail=null}
+2025-10-23 16:54:22,007 [INFO] from org.thp.cortex.services.DockerJobRunnerSrv in application-akka.actor.default-dispatcher-460 - Execute container 4fae4e269bd7d002bcd8e32ad4e2480e4ddd0b40b6e43964c22c900dc6cde602
+  timeout: 30 minutes
+  image  : ghcr.io/thehive-project/virustotal_getreport:3
+  volume : /tmp/cortex-jobs/cortex-job-mgf9EZoBTjB-dfpF-fs4-472700051008547208:/job
+2025-10-23 16:54:22,007 [INFO] from com.spotify.docker.client.DefaultDockerClient in application-analyzer-461 - Starting container with Id: 4fae4e269bd7d002bcd8e32ad4e2480e4ddd0b40b6e43964c22c900dc6cde602
+2025-10-23 16:54:28,187 [INFO] from org.thp.cortex.services.AuditActor in application-akka.actor.default-dispatcher-451 - Job mgf9EZoBTjB-dfpF-fs4 has be updated (JsDefined("Success"))
+2025-10-23 16:54:28,187 [INFO] from org.thp.cortex.services.JobSrv in application-akka.actor.default-dispatcher-456 - Job mgf9EZoBTjB-dfpF-fs4 has finished with status Success
+2025-10-23 16:54:44,193 [INFO] from org.thp.cortex.services.ErrorHandler in application-akka.actor.default-dispatcher-443 - GET /api/analyzer/VirusTotal_GetReport_3_1 returned 404
+org.elastic4play.NotFoundError: worker VirusTotal_GetReport_3_1 not found
+	at org.thp.cortex.services.WorkerSrv.$anonfun$getForOrganization$2(WorkerSrv.scala:82)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.thp.cortex.services.WorkerSrv.$anonfun$getForOrganization$1(WorkerSrv.scala:82)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:56)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:93)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:93)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:48)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:48)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2025-10-23 16:54:44,253 [INFO] from org.thp.cortex.services.JobSrv in application-akka.actor.default-dispatcher-449 - Looking for similar job in the last 10 minutes (worker=3541b6a36d047bc0b3f09abb4c707d94, dataType=hash, data=Left(0f77220f6157fe2f506e14c8ddeff5f8), tlp=2, parameters={"organisation":"SOC","user":"exampleadmin@soc.local"})
+2025-10-23 16:54:46,201 [INFO] from org.thp.cortex.services.AuditActor in application-akka.actor.default-dispatcher-459 - Job nQf-EZoBTjB-dfpFhfsr has be updated (JsDefined("InProgress"))
+2025-10-23 16:54:47,015 [INFO] from com.spotify.docker.client.LoggingPullHandler in pool-6-thread-1 - pull ghcr.io/thehive-project/virustotal_getreport:3: ProgressMessage{id=3, status=Pulling from thehive-project/virustotal_getreport, stream=null, error=null, progress=null, progressDetail=null}
+2025-10-23 16:54:47,022 [INFO] from com.spotify.docker.client.LoggingPullHandler in pool-6-thread-1 - pull ghcr.io/thehive-project/virustotal_getreport:3: ProgressMessage{id=null, status=Digest: sha256:ba0f90422dba35eaa4bc01e23793e05f6c9040b574030b046989e10b978adbcb, stream=null, error=null, progress=null, progressDetail=null}
+2025-10-23 16:54:47,022 [INFO] from com.spotify.docker.client.LoggingPullHandler in pool-6-thread-1 - pull ghcr.io/thehive-project/virustotal_getreport:3: ProgressMessage{id=null, status=Status: Image is up to date for ghcr.io/thehive-project/virustotal_getreport:3, stream=null, error=null, progress=null, progressDetail=null}
+2025-10-23 16:54:47,049 [INFO] from org.thp.cortex.services.DockerJobRunnerSrv in application-akka.actor.default-dispatcher-463 - Execute container 72f8117f4d50a2c84c361cf631ac93601120fe69fd6358255c08241b31e31156
+  timeout: 30 minutes
+  image  : ghcr.io/thehive-project/virustotal_getreport:3
+  volume : /tmp/cortex-jobs/cortex-job-nQf-EZoBTjB-dfpFhfsr-2399450815200874178:/job
+2025-10-23 16:54:47,050 [INFO] from com.spotify.docker.client.DefaultDockerClient in application-analyzer-464 - Starting container with Id: 72f8117f4d50a2c84c361cf631ac93601120fe69fd6358255c08241b31e31156
+2025-10-23 16:54:51,211 [INFO] from org.thp.cortex.services.AuditActor in application-akka.actor.default-dispatcher-465 - Register new listener for job nQf-EZoBTjB-dfpFhfsr (Actor[akka://application/temp/audit$b])
+2025-10-23 16:54:52,219 [INFO] from org.thp.cortex.services.AuditActor in application-akka.actor.default-dispatcher-457 - Job nQf-EZoBTjB-dfpFhfsr has be updated (JsDefined("Success"))
+2025-10-23 16:54:52,219 [INFO] from org.thp.cortex.services.JobSrv in application-akka.actor.default-dispatcher-465 - Job nQf-EZoBTjB-dfpFhfsr has finished with status Success
+2025-10-23 16:54:52,224 [INFO] from org.thp.cortex.services.AuditActor in application-akka.actor.default-dispatcher-457 - Unregister listener for job nQf-EZoBTjB-dfpFhfsr (Actor[akka://application/temp/audit$b])

@@ -12945,3 +12945,716 @@ Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 18
 Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 99
 
+2025-10-23 16:31:57 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+EventsController::beforeFilter() - APP/Controller/EventsController.php, line 68
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:31:57 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+EventsController::beforeFilter() - APP/Controller/EventsController.php, line 68
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:31:59 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:31:59 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:32:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:32:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:36:59 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:36:59 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:37:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:37:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:41:59 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:41:59 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:42:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:42:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:47:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:47:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:47:01 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:47:01 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:52:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:52:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:52:01 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:52:01 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:57:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:57:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:57:01 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 16:57:01 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:02:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:02:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:02:01 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:02:01 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:07:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:07:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:07:01 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:07:01 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:12:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:12:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:12:01 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:12:01 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:17:00 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:17:00 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:17:01 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 17:17:01 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 18:47:23 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 18:47:23 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 18:47:24 Warning: Warning (2): Redis::connect(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppModel::setupRedis() - APP/Model/AppModel.php, line 3004
+AppController::__logApiKeyUse() - APP/Controller/AppController.php, line 658
+AppController::__loginByAuthKey() - APP/Controller/AppController.php, line 431
+AppController::beforeFilter() - APP/Controller/AppController.php, line 235
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
+2025-10-23 18:47:24 Warning: Warning (2): Redis::connect() [<a href='http://php.net/redis.connect'>redis.connect</a>]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in [/var/www/MISP/app/Lib/Tools/RedisTool.php, line 39]
+Trace:
+ErrorHandler::handleError() - APP/Lib/cakephp/lib/Cake/Error/ErrorHandler.php, line 230
+Redis::connect() - [internal], line ??
+RedisTool::init() - APP/Lib/Tools/RedisTool.php, line 39
+AppController::_isLive() - APP/Controller/AppController.php, line 1468
+AppController::__verifyUser() - APP/Controller/AppController.php, line 518
+AppController::beforeFilter() - APP/Controller/AppController.php, line 268
+ServersController::beforeFilter() - APP/Controller/ServersController.php, line 41
+BetterCakeEventManager::dispatch() - APP/Lib/Tools/BetterCakeEventManager.php, line 23
+Controller::startupProcess() - APP/Lib/cakephp/lib/Cake/Controller/Controller.php, line 682
+Dispatcher::_invoke() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - APP/Lib/cakephp/lib/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 99
+
